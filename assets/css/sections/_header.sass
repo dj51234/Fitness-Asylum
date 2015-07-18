@@ -1,0 +1,67 @@
+#home
+	background: url(/assets/images/BGs/dumbells.jpg) left no-repeat
+	background-size: cover
+	height: 100vh
+	max-width: 100%
+	position: relative
+
+	.title
+		text-align: center 
+		color: #f7f7f7
+		font-family: 'Open Sans'
+		+position(absolute, 50% null null 50%)
+		margin-left: -200px
+		margin-top: -150px
+		width: 400px
+
+		h1 
+			font-weight: 600
+			font-size: 50pt
+
+		h2
+			font-size: 24pt
+			font-weight: 500
+		
+		.fa-angle-double-down
+			font-size: 48pt
+			margin-top: 140px
+
+	#nav
+		width: 175px
+		background-color: #202020
+		padding-top: 100px
+		height: 100vh
+
+		.logo
+			margin: 0 auto
+			background: url(/assets/images/logos/fa-logo.png) center center no-repeat
+			background-size: cover
+			width: 84px
+			height: 100px
+
+		.side-nav 
+			list-style-type: none 
+			width: 120px
+			text-align: right
+			margin-right: 30px
+			margin-top: 100px
+			line-height: 24pt
+
+
+			li 
+				a 
+					color: #f7f7f7
+					text-transform: uppercase
+					text-decoration: none
+					letter-spacing: 25
+					margin-right: 10px
+
+					&:hover
+						color: $lightblue
+
+				.ion-arrow-left-b
+					color: $lightblue
+					opacity: 0
+
+
+
