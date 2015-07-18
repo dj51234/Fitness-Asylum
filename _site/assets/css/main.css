@@ -473,17 +473,19 @@ th {
       margin-right: 30px;
       margin-top: 100px;
       line-height: 24pt; }
-      #home #nav .side-nav li a {
-        color: #f7f7f7;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 25;
-        margin-right: 10px; }
-        #home #nav .side-nav li a:hover {
-          color: #14dcff; }
-      #home #nav .side-nav li .ion-arrow-left-b {
-        color: #14dcff;
-        opacity: 0; }
+      #home #nav .side-nav li {
+        cursor: pointer; }
+        #home #nav .side-nav li a {
+          color: #f7f7f7;
+          text-transform: uppercase;
+          text-decoration: none;
+          letter-spacing: 25;
+          margin-right: 10px; }
+          #home #nav .side-nav li a:hover {
+            color: #14dcff; }
+        #home #nav .side-nav li .ion-arrow-left-b {
+          color: #14dcff;
+          opacity: 0; }
 
 body {
   font-family: "Oswald"; }
