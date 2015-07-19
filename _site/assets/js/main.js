@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	$('.side-nav li').mouseenter(function() {
 		$('.ion-arrow-left-b', this).css('opacity','1');
 		$('a', this).css('color','#14dcff');
@@ -7,6 +8,10 @@ $(document).ready(function() {
 		$('.ion-arrow-left-b', this).css('opacity','0');
 		$('a', this).css('color','#f7f7f7');
 	});
+});
+
+$(window).scroll(function() {
+
 });
 
 
