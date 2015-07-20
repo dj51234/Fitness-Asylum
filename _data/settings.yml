@@ -1,2 +1,18 @@
+###Gallery###
 
+gallery:
+- {image: 'img-1', title: 'Indoor Pools'}
+- {image: 'img-2', title: 'Basketball Courts'}
+- {image: 'img-3', title: 'Spacious Second Story Cardio Area'}
+- {image: 'img-4', title: 'Modern Design'}
+- {image: 'img-5', title: 'State of the Art Equipment'}
 
+trainers:
+- {image: '1'}
+- {image: '2'}
+- {image: '3'}
+- {image: '4'}
+- {image: '5'}
+- {image: '6'}
+- {image: '7'}
+- {image: '8'}

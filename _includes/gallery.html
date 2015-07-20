@@ -4,4 +4,13 @@
 		<h2>By Our World Class, State of the Art Fitness Equipment.</h2>
 		<span><a href="http://www.youtube.com">Schedule A Tour</a></span>
 	</div>
+	<div id="mylightbox" class="center">
+		{% for image in site.data.settings.gallery %}
+		<div data-featherlight="assets/images/gallery/{{image.image}}.jpg" data-lazy="assets/images/gallery/{{image.image}}.jpg" class="image" style="background-image:url(assets/images/gallery/{{image.image}}.jpg);">
+			<div class="overlay">
+				<strong class="overlay-title">{{image.title}}</strong>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
 </section>

@@ -1,0 +1,13 @@
+<section id="trainers">
+	<div class="title">
+		<h1><b>Be Trained.</b></h1>
+		<h2>By Our A+ Certified Trainers Whom Are Committed to Excellence.</h2>
+	</div>
+	<div class="trainer-container">
+		{% for trainer in site.data.settings.trainers %}
+		<div class="trainer-unit tooltip-type" style="background-image:url(assets/images/trainers/trainer{{trainer.image}}.jpg);">
+			<div class="trainer-tooltip"></div>
+		</div>		
+		{% endfor %}
+	</div>
+</section>
