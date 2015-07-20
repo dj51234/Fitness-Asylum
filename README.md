@@ -6,7 +6,7 @@ View Site At http://dj51234.github.io/Fitness-Asylum (when finished)
 Interesting ideas:
 
 - Have logo change color based on position of scroll.
-- Change hover link color to match color of logo.
+- Change hover link color to match color of logo relating to scroll position.
 
 To do:
 - ̶S̶i̶d̶e̶-̶N̶a̶v̶
