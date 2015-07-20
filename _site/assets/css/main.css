@@ -466,7 +466,8 @@ th {
     width: 175px;
     background-color: #111;
     height: 100vh;
-    overflow: auto; }
+    overflow: auto;
+    position: fixed; }
     #home #nav .logo {
       margin: 0 auto;
       background: url(/assets/images/logos/fa-logo.png) center center no-repeat;
@@ -637,7 +638,7 @@ th {
     width: 110%; }
   #trainers .title {
     text-align: left;
-    padding: 100px 0 100px 350px;
+    padding: 100px 0 50px 350px;
     color: #f7f7f7;
     font-family: "Open Sans";
     margin: 0 auto;
@@ -661,7 +662,7 @@ th {
     justify-content: space-between;
     width: 750px;
     flex-wrap: wrap;
-    margin: 100px auto 0; }
+    margin: 50px auto 0; }
     #trainers .trainer-container .trainer-unit {
       margin: 0 10px 100px;
       background-size: cover;
