@@ -1,16 +1,18 @@
 <section id="gallery">
-	<div class="title">
-		<h1><b>Be Amazed.</b></h1>
-		<h2>By Our World Class, State of the Art Fitness Equipment.</h2>
-		<span><a href="http://www.youtube.com">Schedule A Tour</a></span>
-	</div>
-	<div id="mylightbox" class="center">
-		{% for image in site.data.settings.gallery %}
-		<div data-featherlight="assets/images/gallery/{{image.image}}.jpg" data-lazy="assets/images/gallery/{{image.image}}.jpg" class="image" style="background-image:url(assets/images/gallery/{{image.image}}.jpg);">
-			<div class="overlay">
-				<strong class="overlay-title">{{image.title}}</strong>
-			</div>
+	<div class="container">
+		<div class="title">
+			<h1><b>Be Amazed.</b></h1>
+			<h2>By Our World Class, State of the Art Fitness Equipment.</h2>
+			<a href="http://www.youtube.com"><span>Schedule A Tour</span></a>
 		</div>
-		{% endfor %}
+		<div id="mylightbox" class="center">
+			{% for image in site.data.settings.gallery %}
+			<div data-featherlight="assets/images/gallery/{{image.image}}.jpg" data-lazy="assets/images/gallery/{{image.image}}.jpg" class="image" style="background-image:url(assets/images/gallery/{{image.image}}.jpg);">
+				<div class="overlay">
+					<strong class="overlay-title">{{image.title}}</strong>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
 	</div>
 </section>

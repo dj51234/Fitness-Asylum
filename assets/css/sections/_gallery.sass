@@ -4,6 +4,10 @@
 	background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),  url(/assets/images/BGs/gallery-bg.jpg) center center no-repeat
 	background-size: cover
 	padding: 100px 0 0
+	overflow: hidden
+
+	.container
+		width: 110%
 	
 	
 
@@ -62,21 +66,21 @@
 			line-height: 48px
 			letter-spacing: 25
 			width: 470px
-
-		span
-			border: 3px solid #F7F7F7
-			padding: 15px 0
-			line-height: 14px
-			float: right
 			
-			a 
-				font-size: 14px
-				text-transform: uppercase 
-				font-weight: bold
-				color: #F7F7F7
-				text-decoration: none
-				font-family: 'Open Sans'
-				padding: 15px 20px
+		a 
+			font-size: 14px
+			text-transform: uppercase 
+			font-weight: bold
+			color: #F7F7F7
+			text-decoration: none
+			font-family: 'Open Sans'
+			padding: 15px 20px
+
+			span
+				border: 3px solid #F7F7F7
+				padding: 15px 25px
+				line-height: 14px
+				float: right
 
 				&:hover
 					background-color: #F7F7F7
@@ -84,8 +88,6 @@
 
 @media (max-width: 760px)
 	#gallery
-
-	
 
 		.center
 			margin: 200px auto 0

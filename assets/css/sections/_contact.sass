@@ -1,0 +1,99 @@
+#contact
+	background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.5)), url(/assets/images/BGs/map.jpg) no-repeat
+	background-size: cover
+	text-align: center
+	overflow: hidden
+
+	.container
+		width: 110%
+	
+
+	.title
+		padding-top: 75px
+		font-weight: 300
+		font-family: 'Open Sans'
+
+		h1
+			font-size: 30px 
+			letter-spacing: 1px
+			color: #F7F7F7
+
+		p
+			font-size: 18px
+			letter-spacing: 1px
+			width: 550px
+			margin: 0 auto
+			padding: 25px 0 50px
+			color: transparentize(#F7F7F7,.2)
+
+	.icon-div
+		color: #F7F7F7
+		font-size: 40px
+		display: flex
+		align-items: center
+		justify-content: space-between
+		width: 500px
+		margin: 0 auto
+		padding-top: 50px
+
+		[class^="ion-"]
+			padding: 29px 40px
+			border-radius: 50%
+			border: 5px solid white
+			cursor: pointer
+			+transition(300ms)
+
+			&:nth-child(1)
+				padding: 29px 43px
+
+				&:hover
+					border: 5px solid #12DAFB
+					color: #12DAFB
+			
+			&:nth-child(2)
+				padding: 29px 45px
+
+				&:hover
+					border: 5px solid #00D302
+					color: #00D302
+
+			&:nth-child(3)
+
+				&:hover
+					border: 5px solid #EA26DD
+					color: #EA26DD
+
+	.icon-tooltip-div
+		color: #F7F7F7
+		font-size: 14px
+		display: flex
+		align-items: center
+		justify-content: space-between
+		width: 500px
+		margin: 0 auto
+		padding-top: 10px
+		padding-bottom: 50px
+
+		.tooltip 
+
+			p 
+				width: 123px
+				opacity: 0
+				+transition(700ms)
+
+
+			&:nth-child(1)
+				color: #12DAFB
+		
+
+		
+			&:nth-child(2)
+				color: #00D302
+				
+
+			&:nth-child(3)
+				color: #EA26DD
+
+	.ion-arrow-down-c
+		color: #F7F7F7
+		font-size: 30px

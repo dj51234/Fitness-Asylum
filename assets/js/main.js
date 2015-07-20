@@ -1,9 +1,35 @@
 $(document).ready(function() {
-	// Smooth Scrolling //
+  // Icon Hovers //
+
+      // Hover One //
+    $('.ion-email').mouseenter(function() {
+      $('.tooltip1 p').css('opacity','1');
+    });
+    $('.ion-email').mouseleave(function() {
+      $('.tooltip1 p').css('opacity','0');
+    });
+
+      // Hover Two //
+    $('.ion-ios-telephone').mouseenter(function() {
+      $('.tooltip2 p').css('opacity','1');
+    });
+    $('.ion-ios-telephone').mouseleave(function() {
+      $('.tooltip2 p').css('opacity','0');
+    });
+
+      // Hover Three //
+    $('.ion-social-twitter').mouseenter(function() {
+      $('.tooltip3 p').css('opacity','1');
+    });
+    $('.ion-social-twitter').mouseleave(function() {
+      $('.tooltip3 p').css('opacity','0');
+    });
+
+	/////// Smooth Scrolling ///////
 
 	smoothScroll();
 	
-	// Navigation Hover //
+	/////// Navigation Hover ///////
 
 	$('.side-nav li').mouseenter(function() {
 		$('.ion-arrow-left-b', this).css('opacity','1');
@@ -14,7 +40,7 @@ $(document).ready(function() {
 		$('a', this).css('color','#f7f7f7');
 	});
 
-	// Gallery Carousel //
+	/////// Gallery Carousel ///////
 
 	$('.center').slick({
 	  lazyLoad: 'ondemand',
