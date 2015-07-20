@@ -466,8 +466,7 @@ th {
     width: 175px;
     background-color: #111;
     height: 100vh;
-    overflow: auto;
-    position: fixed; }
+    overflow: auto; }
     #home #nav .logo {
       margin: 0 auto;
       background: url(/assets/images/logos/fa-logo.png) center center no-repeat;
