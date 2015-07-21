@@ -4,10 +4,18 @@
 			<h1><b>Be Trained.</b></h1>
 			<h2>By Our A+ Certified Trainers Whom Are Committed to Excellence.</h2>
 		</div>
+		<h3>Hover Over A Trainer To Learn More!</h3>
 		<div class="trainer-container">
 			{% for trainer in site.data.settings.trainers %}
-			<div class="trainer-unit tooltip-type" style="background-image:url(assets/images/trainers/trainer{{trainer.image}}.jpg);">
-				<div class="trainer-tooltip"></div>
+			<div class="trainer-unit" style="background-image:url(assets/images/trainers/trainer{{trainer.image}}.jpg);">
+				<div class="tooltip">
+					<div class="list animate">
+						<li><span>Position:</span><span>{{trainer.position}}</span></li>
+						<li><span>Age:</span><span>{{trainer.age}}</span></li>
+						<li><span>Expertise:</span><span>{{trainer.expertise}}</span></li>
+					</div>
+					<h4 class="tip-name">{{trainer.name}}</h4>
+				</div>
 			</div>		
 			{% endfor %}
 		</div>

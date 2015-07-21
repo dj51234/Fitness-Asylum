@@ -1,0 +1,38 @@
+{
+  "name": "scrollspy",
+  "main": "scrollspy.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/makotot/scrollspy",
+  "authors": [
+    "makotot <makoto.ttn@gmail.com>"
+  ],
+  "description": "Scrollspy library",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "scrollspy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "css",
+    "*.html",
+    "src"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "a1d55c8bcd933fac31001a1a6f8a7357620a5516"
+  },
+  "_source": "git://github.com/makotot/scrollspy.git",
+  "_target": "~0.0.1",
+  "_originalSource": "scrollspy",
+  "_direct": true
+}

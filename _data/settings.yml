@@ -8,11 +8,11 @@ gallery:
 - {image: 'img-5', title: 'State of the Art Equipment'}
 
 trainers:
-- {image: '1'}
-- {image: '2'}
-- {image: '3'}
-- {image: '4'}
-- {image: '5'}
-- {image: '6'}
-- {image: '7'}
-- {image: '8'}
+- {image: '1', age: '23', position: 'Owner of FA', expertise: 'Kickboxing', name: 'Dania Noelle'}
+- {image: '2', age: '20', position: 'Co-Owner of FA', expertise: 'Boxing', name: 'Percy Tyler'}
+- {image: '3', age: '24', position: 'Crossfit Instructor', expertise: 'Crossfit', name: 'Wilfred Slade'}
+- {image: '4', age: '21', position: 'Event Coordinator', expertise: 'Jumpstarting Social Events and Meetups', name: 'Georgios Lefteris'}
+- {image: '5', age: '27', position: 'Swimming/Crossfit Instructor', expertise: 'Swimming/Crossfit', name: 'Easton Osbert'}
+- {image: '6', age: '23', position: 'Personal Trainer', expertise: 'Weightlifting', name: 'Justin Baldwin'}
+- {image: '7', age: '23', position: 'Personal Trainer/Boxing Instructor', expertise: 'Weightlifting/Boxing', name: 'Lyall Thabo'}
+- {image: '8', age: '23', position: 'Spinning/Yoga Instructor', expertise: 'Spinning, Rowing', name: 'Chang Ling'}

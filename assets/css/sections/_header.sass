@@ -8,7 +8,7 @@
 	.title
 		text-align: center 
 		color: #f7f7f7
-		font-family: 'Open Sans'
+		font-family: 'Audiowide'
 		+position(absolute, 50% null null 50%)
 		margin-left: -16.3%
 		margin-top: -8.1%
@@ -16,16 +16,24 @@
 
 		h1 
 			font-weight: 600
-			font-size: 50px
+			font-size: 60px
 			line-height: 48px
 			letter-spacing: 25
+			color: #014652
+			display: inline
+			padding: 0 10px 
+			background-color: #FFF
 
 		h2
 			font-size: 18px
 			font-weight: 500
-			line-height: 30px
+			line-height: 35px
 			letter-spacing: 25
-		
+			font-family: 'Open sans'
+
+		h3 
+			font-size: 30px
+			margin: 15px 0
 		.fa-angle-double-down
 			font-size: 48pt
 			margin-top: 140px
@@ -39,9 +47,9 @@
 
 		.logo
 			margin: 0 auto
-			background: url(/assets/images/logos/fa-logo.png) center center no-repeat
-			background-size: cover
-			width: 88px
+			background: url(/assets/images/logos/logo.png) center center no-repeat
+			background-size: contain
+			width: 130px
 			height: 100px
 			margin-top: 100px
 
@@ -63,11 +71,15 @@
 					letter-spacing: 25
 					margin-right: 10px
 
-					
+					&.hover
+						color: $lightblue
 
 				.ion-arrow-left-b
 					color: $lightblue
 					opacity: 0
+
+					&.hover
+						opacity: 1
 
 
 

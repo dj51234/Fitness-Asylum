@@ -1,4 +1,13 @@
 $(document).ready(function() {
+
+  ///////// Trainer Hovers //////////
+
+  $('.trainer-unit').mouseenter(function() {
+    $('.tooltip', this).addClass('animate').fadeIn();
+  });
+  $('.trainer-unit').mouseleave(function() {
+    $('.tooltip', this).fadeOut();
+  });
   // Icon Hovers //
 
       // Hover One //
@@ -18,7 +27,7 @@ $(document).ready(function() {
     });
 
       // Hover Three //
-    $('.ion-social-twitter').mouseenter(function() {
+    $('.ion-social').mouseenter(function() {
       $('.tooltip3 p').css('opacity','1');
     });
     $('.ion-social-twitter').mouseleave(function() {
@@ -31,14 +40,14 @@ $(document).ready(function() {
 	
 	/////// Navigation Hover ///////
 
-	$('.side-nav li').mouseenter(function() {
-		$('.ion-arrow-left-b', this).css('opacity','1');
-		$('a', this).css('color','#14dcff');
-	});
-	$('.side-nav li').mouseleave(function() {
-		$('.ion-arrow-left-b', this).css('opacity','0');
-		$('a', this).css('color','#f7f7f7');
-	});
+  $('.side-nav li').mouseenter(function() {
+    $('a', this).addClass('hover');
+    $('.ion-arrow-left-b', this).addClass('hover');
+  });
+  $('.side-nav li').mouseleave(function() {
+    $('a', this).removeClass('hover');
+    $('.ion-arrow-left-b', this).removeClass('hover');
+  });
 
 	/////// Gallery Carousel ///////
 
@@ -80,8 +89,6 @@ function smoothScroll() {
     }
   });
 }
-
-
 
 
 

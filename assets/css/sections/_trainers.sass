@@ -5,9 +5,19 @@
 
 	.container
 		width: 110%
+		text-align: center
+
+		h3
+			color: white 
+			display: inline-block
+			margin: 0 auto
+			padding-bottom: 3px 
+			border-bottom: 2px solid #437875
+			font-family: 'Oswald'
+			letter-spacing: 1px 
+			font-weight: 300
 
 	.title
-		
 		text-align: left
 		padding: 100px 0 50px 350px
 		color: #f7f7f7
@@ -46,9 +56,53 @@
 			border-radius: 50%
 			border: 7px solid #F7F7F7
 			cursor: pointer
+			position: relative 
+			z-index: 999
 
 			&:hover
 				border: 7px solid #437875
+
+			.tooltip
+				+position(absolute,-140% null null -50%)
+				z-index: 9999
+				width: 200px
+				height: auto
+				background-color: #FFF
+				border-radius: 5px
+				border-left: 15px solid #437875
+				border-right: 15px solid #437875
+				border-top: 15px solid #437875
+				display: none
+				margin-right: -62px
+				pointer-events: none
+				font-family: 'Oswald'
+				font-weight: 300
+				letter-spacing: 1.5px
+
+				.list 
+					list-style-type: none
+					padding: 5px
+					
+
+					span:nth-child(2)
+						
+
+					span:nth-child(2)
+						color: grey 
+						font-size: 14px
+						margin-left: 5px
+
+
+				.tip-name
+					background-color: #437875
+					color: white
+					margin: 0 auto
+					text-align: center
+					padding: 5px 0
+
+					
+
+					
 
 
 		
