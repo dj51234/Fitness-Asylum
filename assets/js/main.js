@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+  ////////// Mobile Nav /////////////
+
+  $('.ion-navicon-round').click(function() {
+    $('#nav').toggleClass('showing');
+  });
+
   ///////// Trainer Hovers //////////
 
   $('.trainer-unit').mouseenter(function() {
@@ -57,7 +63,7 @@ $(document).ready(function() {
 	  slidesToScroll: 1,
 	  responsive: [
     {
-      breakpoint: 968,
+      breakpoint: 990,
       settings: {
         slidesToShow: 2
       }

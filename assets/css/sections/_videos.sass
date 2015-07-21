@@ -39,7 +39,7 @@
 		display: flex
 		margin: 0 auto
 		max-width: 700px
-		height: 550px
+		min-height: 550px
 		justify-content: space-between
 		align-items: center
 
@@ -65,4 +65,36 @@
 					background-color: #F7F7F7
 					color: #246C18
 			
+@media (max-width: 1070px)
+
+	#videos 
+		overflow: hidden
+
+		.container
+			width: 100%
+
+@media (max-width: 870px)
+	#videos 
+		overflow: hidden
+
+		.container
+			width: 100%
+
+		.title
+			text-align: center
+			padding-left: 0
+
+			h1
+				margin-left: 0
+
+			h2 
+				margin-left: 0
+
+		.youtube
+			flex-direction: column
+			min-height: 300px
+			margin-bottom: 100px
 			
+			a 
+				margin-top: 75px
+
