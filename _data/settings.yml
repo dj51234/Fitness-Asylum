@@ -14,5 +14,5 @@ trainers:
 - {image: '4', age: '21', position: 'Event Coordinator', expertise: 'Jumpstarting Social Events and Meetups', name: 'Georgios Lefteris'}
 - {image: '5', age: '27', position: 'Swimming/Crossfit Instructor', expertise: 'Swimming/Crossfit', name: 'Easton Osbert'}
 - {image: '6', age: '23', position: 'Personal Trainer', expertise: 'Weightlifting', name: 'Justin Baldwin'}
-- {image: '7', age: '23', position: 'Personal Trainer/Boxing Instructor', expertise: 'Weightlifting/Boxing', name: 'Lyall Thabo'}
+- {image: '7', age: '23', position: 'Personal Trainer/Boxing Instructor', expertise: 'Weightlifting', name: 'Lyall Thabo'}
 - {image: '8', age: '23', position: 'Spinning/Yoga Instructor', expertise: 'Spinning, Rowing', name: 'Chang Ling'}

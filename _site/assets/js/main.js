@@ -3,10 +3,10 @@ $(document).ready(function() {
   ///////// Trainer Hovers //////////
 
   $('.trainer-unit').mouseenter(function() {
-    $('.tooltip', this).addClass('animate').fadeIn();
+    $('.tooltip', this).addClass('animate').fadeIn(800);
   });
   $('.trainer-unit').mouseleave(function() {
-    $('.tooltip', this).fadeOut();
+    $('.tooltip', this).fadeOut(50);
   });
   // Icon Hovers //
 

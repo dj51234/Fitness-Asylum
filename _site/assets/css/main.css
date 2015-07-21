@@ -434,8 +434,8 @@ th {
   60% {
     transform: translateY(-15px); } }
 .animate {
-  -webkit-animation: animation 1265ms linear both;
-  animation: animation 1265ms linear both; }
+  -webkit-animation: animation 565ms linear both;
+  animation: animation 565ms linear both; }
 
 /* Generated with Bounce.js. Edit at http://goo.gl/et2XBk */
 @-webkit-keyframes animation {
@@ -639,7 +639,7 @@ th {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/assets/images/BGs/dumbells.jpg) left no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/BGs/dumbells.jpg) left no-repeat;
   background-size: cover;
   height: 100vh;
   max-width: 100%;
@@ -682,7 +682,7 @@ th {
     overflow: auto; }
     #home #nav .logo {
       margin: 0 auto;
-      background: url(/assets/images/logos/logo.png) center center no-repeat;
+      background: url(../images/logos/logo.png) center center no-repeat;
       background-size: contain;
       width: 130px;
       height: 100px;
@@ -712,7 +712,7 @@ th {
 
 #videos {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/assets/images/VideoSection/movie.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/VideoSection/movie.jpg) center center no-repeat;
   background-size: cover;
   padding: 100px 0 0;
   overflow: hidden; }
@@ -766,7 +766,7 @@ th {
 #gallery {
   width: 100%;
   height: 800px;
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/assets/images/BGs/gallery-bg.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/gallery-bg.jpg) center center no-repeat;
   background-size: cover;
   padding: 100px 0 0;
   overflow: hidden; }
@@ -847,7 +847,7 @@ th {
     margin: 200px auto 0;
     max-width: 400px; } }
 #trainers {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/assets/images/BGs/trainer-bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/trainer-bg.jpg) no-repeat;
   background-size: cover;
   overflow: hidden; }
   #trainers .container {
@@ -934,7 +934,7 @@ th {
           padding: 5px 0; }
 
 #nutrition {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/assets/images/BGs/fit.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/fit.jpg) no-repeat;
   background-size: cover;
   overflow: hidden; }
   #nutrition .container {
@@ -946,7 +946,7 @@ th {
     margin: 0 auto;
     width: 700px; }
     #nutrition .nutrition-content .fitpal-img {
-      background: url(/assets/images/phone/phone.png);
+      background: url(../images/phone/phone.png);
       width: 335px;
       height: 327px; }
     #nutrition .nutrition-content .nutrition-btns {
@@ -961,13 +961,13 @@ th {
         font-weight: bold;
         color: #F7F7F7;
         text-decoration: none;
-        font-family: "Open Sans"; }
+        font-family: "Open Sans";
+        margin: 30px 0; }
         #nutrition .nutrition-content .nutrition-btns a span {
           border: 3px solid #F7F7F7;
           padding: 15px 25px;
           line-height: 14px;
-          float: right;
-          margin: 30px 0; }
+          float: right; }
           #nutrition .nutrition-content .nutrition-btns a span:hover {
             background-color: #F7F7F7;
             color: #111; }
@@ -991,7 +991,7 @@ th {
       width: 470px; }
 
 #plans {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/images/BGs/pricing-bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/BGs/pricing-bg.jpg) no-repeat;
   background-size: cover;
   text-align: center;
   padding-bottom: 100px;
@@ -1076,7 +1076,7 @@ th {
         color: #111; }
 
 #contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/BGs/map.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/BGs/map.jpg) no-repeat;
   background-size: cover;
   text-align: center;
   overflow: hidden; }
