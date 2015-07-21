@@ -815,7 +815,10 @@ th {
       border: 7px solid #F7F7F7;
       cursor: pointer;
       position: relative;
-      z-index: 999; }
+      z-index: 999;
+      font-family: "Oswald";
+      font-weight: 300;
+      letter-spacing: 1.5px; }
       #trainers .trainer-container .trainer-unit:hover {
         border: 7px solid #437875; }
       #trainers .trainer-container .trainer-unit .tooltip {
@@ -834,11 +837,13 @@ th {
         margin-right: -62px;
         pointer-events: none;
         font-family: "Oswald";
-        font-weight: 300;
-        letter-spacing: 1.5px; }
+        font-weight: 300; }
         #trainers .trainer-container .trainer-unit .tooltip .list {
           list-style-type: none;
-          padding: 5px; }
+          padding: 5px;
+          font-family: "Oswald";
+          font-weight: 300;
+          letter-spacing: 1.5px; }
           #trainers .trainer-container .trainer-unit .tooltip .list span:nth-child(2) {
             color: grey;
             font-size: 14px;
@@ -848,7 +853,8 @@ th {
           color: white;
           margin: 0 auto;
           text-align: center;
-          padding: 5px 0; }
+          padding: 5px 0;
+          letter-spacing: 1px; }
 
 #nutrition {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/fit.jpg) fixed no-repeat;
