@@ -601,7 +601,7 @@ th {
       margin-top: 140px; }
   #home #nav {
     max-width: 175px;
-    background-color: #111;
+    background-color: #0C0C0C;
     height: 100vh;
     z-index: 2;
     position: fixed;
@@ -1052,7 +1052,7 @@ th {
         #nutrition .container .nutrition-content .fitpal-img {
           margin-top: 75px; } }
 #plans {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/BGs/pricing-bg.jpg) fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/BGs/money.jpg) fixed;
   background-size: cover;
   text-align: center;
   padding-bottom: 100px;
@@ -1148,7 +1148,7 @@ th {
       #plans .container .title h2 {
         line-height: 25px; } }
 #contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/BGs/map.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/BGs/map.jpg) no-repeat;
   background-size: cover;
   text-align: center;
   overflow: hidden; }
@@ -1230,7 +1230,7 @@ th {
       margin: 20px 0; } }
 #footer {
   height: 75px;
-  background-color: #111;
+  background-color: #0C0C0C;
   overflow: hidden; }
   #footer .footer-wrap {
     width: 110%;
