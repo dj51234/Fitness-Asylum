@@ -1,19 +1,18 @@
 #gallery
 	width: 100%
-	height: 800px
 	background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),  url(../images/BGs/gallery-bg.jpg) fixed center center no-repeat
 	background-size: cover
-	padding: 100px 0 0
+	padding: 100px 0 75px
 	overflow: hidden
+
 
 	.container
 		width: 110%
-	
-	
 
 	.center
-		margin: 200px auto 0
+		margin: 200px auto 
 		max-width: 900px
+		z-index: 0
 
 	.image
 		position: relative 
@@ -51,7 +50,8 @@
 		color: #f7f7f7
 		font-family: 'Open Sans'
 		margin: 0 auto
-		width: 620px
+		max-width: 620px
+		padding: 0 10px
 
 		h1 
 			font-weight: 600
@@ -65,7 +65,7 @@
 			font-weight: 500
 			line-height: 48px
 			letter-spacing: 25
-			width: 470px
+			max-width: 470px
 			
 		a 
 			font-size: 14px
@@ -85,6 +85,12 @@
 				&:hover
 					background-color: #F7F7F7
 					color: #702021
+@media (max-width: 1196px)
+	#gallery
+
+		.center
+			margin: 125px auto 0
+			max-width: 700px
 
 @media (max-width: 1070px)
 
@@ -94,28 +100,14 @@
 		.container
 			width: 100%
 
-
-@media (max-width: 990px)
-	#gallery
-
-		.center
-			margin: 200px auto 0
-			max-width: 500px
-
-@media (max-width: 870px)
-	#gallery 
-		
-		.container
-		
-			.center
-				margin-top: 75px
 			.title
 				text-align: center
-				padding-left: 0
+				
 
 				h2 
-					width: 620px
-					margin-bottom: 60px
+					margin: 25px auto 60px
+					font-size: 20px
+					line-height: 25px
 
 				a 	
 					
@@ -124,8 +116,25 @@
 						float: initial
 						text-align: center
 
-@media (max-width: 615px)
-	#gallery
-		.center
-			max-width: 300px
+@media (max-width: 870px)
+	#gallery 
+		
+		.container
+		
+			.center
+				margin-top: 75px
+
+@media (max-width: 760px)
+	#gallery 
+		
+		.container
+		
+			.center
+				max-width: 300px
+			.title
 				
+
+				h2 
+					max-width: 620px
+					
+					

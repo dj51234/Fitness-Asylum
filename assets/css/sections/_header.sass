@@ -1,17 +1,20 @@
 #home
-	background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(../images/BGs/dumbells.jpg) fixed left no-repeat
+	background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(../images/BGs/dumbells.jpg) fixed center  no-repeat
 	background-size: cover
 	height: 100vh
 	max-width: 100%
 	position: relative
+	overflow: hidden
+	
+
 
 	.mobile-nav
 		max-width: 50px
 		color: white 
-		z-index: 1
+		z-index: 3
 		font-size: 30px
 		cursor: pointer
-		+position(absolute, 5px null null 10px)
+		+position(absolute, 0px null null 10px)
 		display: none
 		position: fixed
 
@@ -19,12 +22,10 @@
 		text-align: center 
 		color: #f7f7f7
 		font-family: 'Audiowide'
-		+position(absolute, 50% null null 50%)
-		margin-left: -16.3%
-		margin-top: -8.1%
-		width: 620px
-		transition: margin-top .8s
-		transition: margin-left .8s
+		margin: 100px auto 0
+		max-width: 620px
+		
+		
 
 		h1 
 			font-weight: 600
@@ -46,6 +47,7 @@
 		h3 
 			font-size: 30px
 			margin: 15px 0
+
 		.fa-angle-double-down
 			font-size: 48pt
 			margin-top: 140px
@@ -54,7 +56,7 @@
 		max-width: 175px
 		background-color: #111
 		height: 100vh
-		overflow: auto
+		z-index: 2
 		position: fixed
 		text-align: center
 		transition: max-width 0.4s
@@ -101,10 +103,6 @@
 @media (max-width: 1070px)
 	#home
 		
-		.title
-			margin-left: -30%
-			margin-top: -20%
-
 		.mobile-nav
 			display: inline-block
 
@@ -114,88 +112,25 @@
 			&.showing
 				max-width: 20em
 
-@media (max-width: 795px)
-	#home
-		
 		.title
-			margin-left: -37%
-			margin-top: -20%	
+			h1
+				font-size: 50px
 
-@media (max-width: 795px)
+@media (max-width: 600px)
 	#home
 		
+		.mobile-nav
+			display: inline-block
+
 		.title
-			margin-left: -42%
-			margin-top: -20%
-@media (max-width: 620px)
-	#home
-		
-		.title
-			margin-left: -50%
-			margin-top: -20%
-			h1 
+			h1
 				font-size: 40px
 
 			h2
-				font-size: 18px
+				font-size: 14px
 
 			h3 
-				font-size: 24px
-				margin: 15px 0
-@media (max-width: 560px)
-	#home
-		
-		.title
-			margin-left: -58%
-			margin-top: -20%
-@media (max-width: 490px)
-	#home
-		
-		.title
-			margin-left: -65%
-			margin-top: -20%
-			h1 
-				font-size: 20px
+				font-size: 25px
 
-			h2
-				font-size: 12px
 
-			h3 
-				font-size: 12px
-				margin: 15px 0
-@media (max-width: 410px)
-	#home
-		
-		.title
-			margin-left: -75%
-			margin-top: -20%
-			h1 
-				font-size: 20px
 
-			h2
-				font-size: 12px
-
-			h3 
-				font-size: 12px
-				margin: 15px 0
-@media (max-width: 390px)
-	#home
-		
-		.title
-			margin-left: -85%
-			margin-top: -20%
-			h1 
-				font-size: 20px
-
-			h2
-				font-size: 12px
-
-			h3 
-				font-size: 12px
-				margin: 15px 0
-@media (max-width: 347px)
-	#home
-		
-		.title
-			margin-left: -95%
-			margin-top: -20%

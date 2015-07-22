@@ -14,31 +14,6 @@ $(document).ready(function() {
   $('.trainer-unit').mouseleave(function() {
     $('.tooltip', this).fadeOut(50);
   });
-  // Icon Hovers //
-
-      // Hover One //
-    $('.ion-email').mouseenter(function() {
-      $('.tooltip1 p').css('opacity','1');
-    });
-    $('.ion-email').mouseleave(function() {
-      $('.tooltip1 p').css('opacity','0');
-    });
-
-      // Hover Two //
-    $('.ion-ios-telephone').mouseenter(function() {
-      $('.tooltip2 p').css('opacity','1');
-    });
-    $('.ion-ios-telephone').mouseleave(function() {
-      $('.tooltip2 p').css('opacity','0');
-    });
-
-      // Hover Three //
-    $('.ion-social').mouseenter(function() {
-      $('.tooltip3 p').css('opacity','1');
-    });
-    $('.ion-social-twitter').mouseleave(function() {
-      $('.tooltip3 p').css('opacity','0');
-    });
 
 	/////// Smooth Scrolling ///////
 
@@ -75,9 +50,6 @@ $(document).ready(function() {
       }
     }
   ]
-	});
-	$('a.center').featherlightGallery({
-    openSpeed: 300
 	});
 });
 

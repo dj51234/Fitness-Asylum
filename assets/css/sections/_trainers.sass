@@ -23,7 +23,7 @@
 		color: #f7f7f7
 		font-family: 'Open Sans'
 		margin: 0 auto
-		width: 620px
+		max-width: 620px
 
 		h1 
 			font-weight: 600
@@ -48,6 +48,7 @@
 		width: 750px
 		flex-wrap: wrap
 		margin: 50px auto 0
+		
 
 		.trainer-unit
 			margin: 0 10px 100px
@@ -57,7 +58,7 @@
 			border: 7px solid #F7F7F7
 			cursor: pointer
 			position: relative 
-			z-index: 999
+			z-index: 0
 			font-family: 'Oswald'
 			font-weight: 300 
 			letter-spacing: 1.5px
@@ -67,7 +68,7 @@
 
 			.tooltip
 				+position(absolute,-140% null null -50%)
-				z-index: 9999
+				z-index: 1
 				width: 200px
 				height: auto
 				background-color: #FFF
@@ -110,21 +111,19 @@
 
 		.container
 			width: 100%	
-
-@media (max-width: 870px)
-	#trainers
-		
-		.container
-		
+			
 			.title
 				text-align: center
-				margin: 0 auto
+				margin: 0 auto 25px
 				padding-left: 0
+
 				
 
 				h2 
-					width: 620px
-					margin-left: 0
+					max-width: 620px
+					margin: 25px auto 0
+					line-height: 25px
+					font-size: 20px
 
 				h1
 					margin-left: 0
@@ -135,6 +134,52 @@
 					span 
 						float: initial
 						text-align: center
+
+@media (max-width: 785px)
+
+	#trainers
+		overflow: hidden
+
+		.container
+			width: 100%
+
+			.trainer-container
+				width: 350px
+
+@media (max-width: 713px)
+
+	#trainers
+		overflow: hidden
+
+		.container
+			width: 100%
+
+			.title
+
+				h1
+					margin-left: 0
+
+				h2
+					max-width: 320px
+					margin: 25px auto 0
+					font-size: 20px
+
+@media (max-width: 425px)
+
+	#trainers
+		padding-bottom: 75px
+		.container
+			
+
+			.trainer-container
+				width: 250px
+
+				.trainer-unit
+					margin: 20px auto
+
+
+
+			
 
 
 

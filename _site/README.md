@@ -10,7 +10,7 @@ Interesting ideas:
 
 To do:
 - ̶S̶i̶d̶e̶-̶N̶a̶v̶
-- Mobile Nav
+- ̶M̶o̶b̶i̶l̶e̶ ̶N̶a̶v̶
 - ̶H̶o̶m̶e̶
 - ̶V̶i̶d̶e̶o̶s̶
 - ̶G̶a̶l̶l̶e̶r̶y̶
