@@ -576,7 +576,7 @@ th {
     text-align: center;
     color: #f7f7f7;
     font-family: "Audiowide";
-    margin: 100px auto 0;
+    margin: 300px auto 100px;
     max-width: 620px; }
     #home .title h1 {
       font-weight: 600;
@@ -742,7 +742,7 @@ th {
   #gallery .container {
     width: 110%; }
   #gallery .center {
-    margin: 200px auto;
+    margin: 200px auto 50px;
     max-width: 900px;
     z-index: 0; }
   #gallery .image {
