@@ -555,7 +555,7 @@ th {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/BGs/dumbells.jpg) fixed center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/BGs/dumbells.jpg) center no-repeat;
   background-size: cover;
   height: 100vh;
   max-width: 100%;
@@ -660,7 +660,7 @@ th {
     font-size: 25px; } }
 #videos {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/VideoSection/movie.jpg) fixed center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/VideoSection/movie.jpg) center center no-repeat;
   background-size: cover;
   padding: 100px 0 0;
   overflow: hidden; }
@@ -735,7 +735,7 @@ th {
     max-width: 300px; } }
 #gallery {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/gallery-bg.jpg) fixed center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/gallery-bg.jpg) center center no-repeat;
   background-size: cover;
   padding: 100px 0 75px;
   overflow: hidden; }
@@ -840,7 +840,7 @@ th {
   #gallery .container .title h2 {
     max-width: 620px; } }
 #trainers {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/trainer-bg.jpg) fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/trainer-bg.jpg) no-repeat;
   background-size: cover;
   overflow: hidden; }
   #trainers .container {
@@ -977,7 +977,7 @@ th {
       #trainers .container .trainer-container .trainer-unit {
         margin: 20px auto; } }
 #nutrition {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/fit.jpg) fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/BGs/fit.jpg) no-repeat;
   background-size: cover;
   overflow: hidden; }
   #nutrition .container {
@@ -1052,7 +1052,7 @@ th {
         #nutrition .container .nutrition-content .fitpal-img {
           margin-top: 75px; } }
 #plans {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/BGs/money.jpg) fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/BGs/money.jpg);
   background-size: cover;
   text-align: center;
   padding-bottom: 100px;
