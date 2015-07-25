@@ -38,9 +38,6 @@
   border-bottom: 3px solid #9BB7F1;
   display: inline-block; }
 
-.default-hover:hover {
-  color: green; }
-
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -623,8 +620,8 @@ th {
       width: 120px;
       text-align: right;
       margin-right: 30px;
-      margin-top: 100px;
-      line-height: 24px; }
+      margin-top: 200px;
+      line-height: 34px; }
       #home #nav .side-nav li {
         cursor: pointer; }
         #home #nav .side-nav li a {
@@ -634,9 +631,9 @@ th {
           letter-spacing: 25;
           margin-right: 10px; }
           #home #nav .side-nav li a.hover {
-            color: #023D47; }
+            color: #306A75; }
         #home #nav .side-nav li .ion-arrow-left-b {
-          color: #023D47;
+          color: #306A75;
           opacity: 0; }
           #home #nav .side-nav li .ion-arrow-left-b.hover {
             opacity: 1; }
@@ -1179,34 +1176,36 @@ th {
     max-width: 500px;
     margin: 55px auto 25px;
     padding-top: 50px; }
-    #contact .icon-div .icon-unit:nth-child(1) i {
-      padding: 29px 43px; }
-      #contact .icon-div .icon-unit:nth-child(1) i:hover {
-        border: 5px solid #12DAFB;
+    #contact .icon-div .icon-unit {
+      width: 33%; }
+      #contact .icon-div .icon-unit:nth-child(1) i {
+        padding: 29px 43px; }
+        #contact .icon-div .icon-unit:nth-child(1) i:hover {
+          border: 5px solid #12DAFB;
+          color: #12DAFB; }
+      #contact .icon-div .icon-unit:nth-child(2) i {
+        padding: 29px 45px; }
+        #contact .icon-div .icon-unit:nth-child(2) i:hover {
+          border: 5px solid #00D302;
+          color: #00D302; }
+      #contact .icon-div .icon-unit:nth-child(3) i:hover {
+        border: 5px solid #EA26DD;
+        color: #EA26DD; }
+      #contact .icon-div .icon-unit:nth-child(1) p {
         color: #12DAFB; }
-    #contact .icon-div .icon-unit:nth-child(2) i {
-      padding: 29px 45px; }
-      #contact .icon-div .icon-unit:nth-child(2) i:hover {
-        border: 5px solid #00D302;
+      #contact .icon-div .icon-unit:nth-child(2) p {
         color: #00D302; }
-    #contact .icon-div .icon-unit:nth-child(3) i:hover {
-      border: 5px solid #EA26DD;
-      color: #EA26DD; }
-    #contact .icon-div .icon-unit:nth-child(1) p {
-      color: #12DAFB; }
-    #contact .icon-div .icon-unit:nth-child(2) p {
-      color: #00D302; }
-    #contact .icon-div .icon-unit:nth-child(3) p {
-      color: #EA26DD; }
-    #contact .icon-div .icon-unit p {
-      padding: 25px 0;
-      opacity: 0;
-      font-size: 14px;
-      -webkit-transition: 700ms;
-      -moz-transition: 700ms;
-      transition: 700ms; }
-    #contact .icon-div .icon-unit:hover p {
-      opacity: 1; }
+      #contact .icon-div .icon-unit:nth-child(3) p {
+        color: #EA26DD; }
+      #contact .icon-div .icon-unit p {
+        padding: 25px 0;
+        opacity: 0;
+        font-size: 14px;
+        -webkit-transition: 700ms;
+        -moz-transition: 700ms;
+        transition: 700ms; }
+      #contact .icon-div .icon-unit:hover p {
+        opacity: 1; }
     #contact .icon-div [class^="ion-"] {
       padding: 29px 40px;
       border-radius: 50%;
@@ -1227,8 +1226,10 @@ th {
 @media (max-width: 560px) {
   #contact .container .icon-div {
     flex-direction: column; }
-    #contact .container .icon-div [class^="ion-"] {
-      margin: 20px 0; } }
+    #contact .container .icon-div .icon-unit {
+      margin: 10px 0; }
+      #contact .container .icon-div .icon-unit p {
+        margin-top: 30px; } }
 #footer {
   height: 75px;
   background-color: #0C0C0C;
