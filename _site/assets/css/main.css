@@ -620,7 +620,7 @@ th {
       width: 120px;
       text-align: right;
       margin-right: 30px;
-      margin-top: 200px;
+      margin-top: 175px;
       line-height: 34px; }
       #home #nav .side-nav li {
         cursor: pointer; }
@@ -642,7 +642,10 @@ th {
   #home .mobile-nav {
     display: inline-block; }
   #home #nav {
-    max-width: 0; }
+    max-width: 0;
+    -webkit-transition: 700ms;
+    -moz-transition: 700ms;
+    transition: 700ms; }
     #home #nav.showing {
       max-width: 20em; }
   #home .title h1 {
