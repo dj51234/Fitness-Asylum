@@ -1,7 +1,7 @@
 # Fitness Asylum
 Mock site for fake fitness center
 
-View Site At http://dj51234.github.io/Fitness-Asylum (when finished)
+View Site At http://dj51234.github.io/Fitness-Asylum 
 
 Interesting ideas:
 
